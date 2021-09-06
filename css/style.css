@@ -1,0 +1,850 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&display=swap'); */
+
+@import url('href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    line-height: 1.618;
+}
+
+p {
+    font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+
+/* Home Page CSS */
+
+.info-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.info-link .icon-holder {
+    cursor: default;
+    pointer-events: none;
+}
+
+.info-link .link-fb,
+.info-link .email {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.info-link .email:hover,
+.info-link .link-fb:hover {
+    color: #28a745;
+    text-decoration: underline;
+}
+
+.info-link .tel {
+    color: #28a745;
+}
+
+.info-link li {
+    overflow: hidden;
+    padding: 8px 0;
+}
+
+.info-link .icon-holder {
+    line-height: 1;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.info-link .text-holder {
+    padding: 8px 0;
+    overflow: hidden;
+    display: block;
+}
+
+
+/*Navigation*/
+
+.navbar-header {
+    position: relative;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.navbar-header .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    z-index: 3;
+}
+
+.navbar-brand img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.navbar>.navbar-collapse {
+    margin: 0 -15px;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.25s linear;
+    padding: 8px 24px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #064d2a;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    background: #064d2a;
+    color: #fff;
+}
+
+
+/*Company profile*/
+
+.data-holder {
+    background-color: #064d2a;
+    padding: 45px 0;
+}
+
+.data-holder .data {
+    padding: 20px;
+}
+
+.data-body h3 {
+    font-size: 22px;
+    color: #ffc107;
+    margin-bottom: 16px;
+}
+
+.data-body p {
+    line-height: 24px;
+}
+
+.fa-bug,
+.fa-comments,
+.fa-check-square {
+    color: whitesmoke;
+    font-size: 4em;
+    margin-top: 5rem;
+    padding-bottom: .5em;
+    position: relative;
+}
+
+.data-holder .fa-bug,
+.data-holder .fa-comments,
+.data-holder .fa-check-square {
+    font-size: 60px;
+    padding-bottom: 0;
+    margin: 0 0 30px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/*contact section*/
+
+.contact-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-section .section-heading {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.contact-section h2 {
+    color: #28a745;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 18px;
+}
+
+.contactus-section {
+    background-color: #064d2a;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/*intro section*/
+
+.intro-section {
+    background: #064d2a;
+    padding: 30px 0;
+}
+
+.Service-section {
+    background: #064d2a;
+    padding: 30px 0;
+    margin-bottom: 10px;
+}
+
+.intro-section .list-wrap {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+    margin: 0 0 23px;
+    padding: 18px 16px;
+}
+
+.intro-section .col-md-6:last-child .list-wrap {
+    margin-bottom: 0;
+}
+
+.intro-section .section-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.intro-list {
+    list-style: none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-list li {
+    position: relative;
+    padding: 0 0 8px 16px;
+}
+
+.intro-list li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #28a745;
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top: 8px;
+}
+
+.info-section,
+.services-section,
+.appointment-section,
+.revelation-info,
+.more-info,
+.map-block {
+    padding: 45px 0;
+}
+
+.info-section {
+    background-color: #064d2a;
+}
+
+.info-section h2,
+.pest-info-section h2,
+.appointment-section h2,
+.revelation-info h2,
+.more-info h2,
+.testimonial-block h2,
+.map-block h2 {
+    color: #ffc107;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 26px;
+    text-transform: capitalize;
+}
+
+.info-section .img-holder {
+    margin-bottom: 42px;
+}
+
+.pest-info-section {
+    background-color: whitesmoke;
+    padding: 42px 0;
+}
+
+.pest-info-section .img-holder {
+    margin-bottom: 26px;
+}
+
+.pest-info-section h2,
+.appointment-section h2 {
+    margin-bottom: 26px;
+}
+
+.pest-info-section p {
+    margin-bottom: 42px;
+}
+
+.pests-tab {
+    width: 100%;
+}
+
+.pest-info-section .nav-item {
+    width: 20%;
+    display: inline-block;
+}
+
+.pests-tab .nav-item .nav-link {
+    display: block;
+    padding: 4px 6px;
+    text-align: center;
+    transition: all 0.25s linear;
+}
+
+.pests-tab .nav-link img {
+    max-width: 100%;
+    max-height: 100px;
+    transition: all 0.25s linear;
+}
+
+.pests-tab .nav-link:hover img {
+    opacity: 0.5;
+}
+
+.pests-tab .nav-link span {
+    display: none;
+}
+
+.pests-tab .nav-link:hover span {
+    color: #5a6268;
+}
+
+.pests-tab .nav-link.active span {
+    color: #ffc107;
+}
+
+.pest-info-section .tab-content {
+    padding-top: 26px;
+}
+
+.pest-info-section .tab-content h3 {
+    font-size: 26px;
+    color: #ffc107;
+}
+
+.appointment-section .heading-section p {
+    text-align: left;
+    margin-bottom: 46px;
+}
+
+.appointment-section .btn-appointment {
+    display: block;
+}
+
+
+/*Appointment modal*/
+
+.appointment-section .modal {
+    text-align: left;
+}
+
+.appointment-section .modal-content {
+    border: none;
+}
+
+.appointment-form .modal-header {
+    background: #28a745;
+}
+
+.appointment-form h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.appointment-form .btn {
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+
+/* Service Page CSS Ends */
+
+
+/* About page CSS */
+
+.revelation-info {
+    background: #064d2a;
+}
+
+.revelation-info h2,
+.more-info h2 {
+    text-align: left;
+}
+
+.commitment-block {
+    background-color: whitesmoke;
+    padding: 42px 0;
+    text-align: center
+}
+
+.commitment-block h3 {
+    color: #064d2a;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.commitment-block .item p {
+    text-align: left;
+}
+
+.commitment-block .item:first-of-type {
+    margin-bottom: 42px;
+}
+
+.testimonial-block {
+    background-color: #28a745;
+    padding: 41px 0 25px;
+}
+
+.testimonial-block h2 {
+    text-transform: uppercase;
+}
+
+.testimonial-block blockquote {
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    padding: 0 16px 0 84px;
+    position: relative;
+    text-align: left;
+}
+
+.testimonial-block blockquote:before {
+    content: "\f10d";
+    color: #ffc10740;
+    font-family: "Font Awesome 5 Free";
+    font-size: 45px;
+    font-style: normal;
+    line-height: 1;
+    left: 5%;
+    position: absolute;
+    top: 0;
+}
+
+.testimonial-block q:before,
+.testimonial-block q:after {
+    content: '';
+}
+
+.testimonial-block .testimonial-avatar {
+    margin: 0 auto 16px;
+    width: 30%;
+}
+
+.testimonial-block .testimonial-avatar img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.testimonial-author {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+/* Contact Page CSS */
+
+.map-block {
+    background: #064d2a;
+}
+
+.map-block h2 {
+    text-align: left;
+}
+
+.contact-block {
+    padding: 67px 0;
+}
+
+.contact-block h2 {
+    color: #064d2a;
+    font-size: 25px;
+    margin-bottom: 45px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.contact-block .contact-form {
+    margin-bottom: 61px;
+}
+
+.contact-block label {
+    color: #064d2a;
+}
+
+.contact-block .form-control {
+    border-radius: 0;
+}
+
+.contact-block .form-control:hover {
+    transition: all 0.5s linear;
+    border: 1px solid #064d2a;
+}
+
+.contact-block .form-control:focus {
+    border-color: #ffc107;
+    box-shadow: none;
+}
+
+.contact-detail {
+    color: #064d2a;
+}
+
+.contact-detail dt {
+    float: left;
+    width: 30%;
+}
+
+.contact-detail dd {
+    font-weight: 200;
+    overflow: hidden;
+}
+
+.tel {
+    color: #064d2a;
+}
+
+.email {
+    color: #ffc107;
+    text-decoration: underline;
+    transition: all 0.5s linear;
+}
+
+.email:hover {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+a[href^="tel"] {
+    cursor: default;
+    pointer-events: none;
+}
+
+
+/* Contace Page CSS Ends */
+
+
+/*footer*/
+
+.footer-content {
+    background-color: whitesmoke;
+    color: #064d2a;
+    padding-top: 30px;
+}
+
+.brand-block {
+    display: block;
+    padding-bottom: 18px;
+}
+
+.address-block {
+    border-top: 1px solid #d5d5d5;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.address-block strong {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.working-block,
+.connect-block {
+    border-top: 1px solid #d5d5d5;
+    padding: 12px 0;
+}
+
+.working-block h5,
+.connect-block h5 {
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+
+.connect-block .media {
+    margin-bottom: 12px;
+}
+
+.connect-block .media-body {
+    padding-left: 8px;
+}
+
+.connect-block .email {
+    text-decoration: none;
+}
+
+.connect-block .email:hover {
+    text-decoration: underline;
+}
+
+.connect-block .media:last-child .media-body {
+    padding-left: 16px;
+}
+
+.connect-block .media-body a {
+    color: #064d2a;
+    transition: all 0.5s linear;
+}
+
+.connect-block .media-body a:hover {
+    color: #218838;
+}
+
+.connect-block .fa-phone,
+.connect-block .fa-envelope,
+.connect-block .fa-facebook-f {
+    color: #28a745;
+}
+
+
+/*footer copyright*/
+
+.copyright-content {
+    color: #d5d5d5;
+    padding: 21px 0;
+    text-align: center;
+}
+
+.copyright-content p {
+    margin-bottom: 4px;
+}
+
+.copyright-content p:last-child {
+    font-size: 12px;
+}
+
+
+/*---Media Queries ---*/
+
+@media (max-width:992px) {
+    .social a {
+        font-size: 1em;
+        padding: 5rem;
+    }
+}
+
+@media(min-width: 480px) {
+    .info-link {
+        letter-spacing: -4px;
+        padding: 15px 0;
+    }
+    .info-link li {
+        width: 32.33%;
+        display: inline-block;
+        vertical-align: middle;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .info-link .icon-holder {
+        float: none;
+        margin: 0;
+    }
+    .info-link .text-holder {
+        padding: 0;
+        font-size: 12px;
+    }
+    .navbar-header .navbar-toggler {
+        top: 33px;
+    }
+    .navbar-brand img {
+        width: 240px;
+    }
+    /*services page*/
+    .appointment-form h3 {
+        font-size: 26px;
+    }
+    .appointment-form .btn {
+        display: inline-block;
+        width: auto;
+    }
+}
+
+@media(max-width: 767px) {
+    .testimonial-block .carousel-control-prev,
+    .testimonial-block .carousel-control-next {
+        display: none;
+    }
+}
+
+@media(max-width: 567px) {
+    .map-block {
+        padding-bottom: 0;
+    }
+    .map-block .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .map-block .section-heading {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(min-width: 768px) {
+    .navbar-header {
+        width: auto;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        border-radius: 6px;
+        padding: 8px 16px;
+    }
+    .info-link .text-holder {
+        font-size: 16px;
+    }
+    .contact-section {
+        padding: 60px 0;
+    }
+    .contact-section .section-heading {
+        font-size: 18px;
+    }
+    .contact-section h2 {
+        font-size: 30px;
+    }
+    /*services page*/
+    .info-section h2,
+    .pest-info-section h2,
+    .appointment-section h2,
+    .revelation-info h2,
+    .testimonial-block h2,
+    .map-block h2 {
+        font-size: 43px;
+    }
+    .info-section h2 {
+        margin-bottom: 63px;
+    }
+    .pest-info-section h2,
+    .appointment-section h2 {
+        margin-bottom: 26px;
+    }
+    .pest-info-section .heading-section,
+    .appointment-section .heading-section {
+        text-align: center;
+    }
+    /*pests tab*/
+    .pest-info-section .tab-content h3 {
+        display: none;
+    }
+    .pests-tab .nav-link span {
+        display: block;
+        color: #28a745;
+        font-weight: 500;
+        padding-top: 16px;
+        transition: all 0.25s linear;
+    }
+    .appointment-section .heading-section p {
+        text-align: center;
+    }
+    /*appointment section*/
+    .appointment-section .btn-appointment {
+        display: inline-block;
+        min-width: 464px;
+        padding: 10px 16px;
+    }
+    /*about page;*/
+    .more-info h2 {
+        font-size: 42px;
+        text-transform: capitalize;
+    }
+    .commitment-block h3 {
+        font-size: 42px;
+    }
+    .commitment-block .item p {
+        text-align: center;
+    }
+    .testimonial-block {
+        padding: 67px 0 41px;
+    }
+    .testimonial-block blockquote {
+        padding: 41px 140px 16px;
+    }
+    .testimonial-block blockquote:before {
+        font-size: 68px;
+    }
+    .testimonial-block .testimonial-avatar {
+        width: 10%;
+    }
+    .testimonial-block .carousel-control-prev,
+    .testimonial-block .carousel-control-next {
+        background: #064d2a;
+        border-radius: 50%;
+        height: 68px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        top: 50%;
+        width: 68px;
+    }
+    .testimonial-block .carousel-control-next-icon,
+    .testimonial-block .carousel-control-prev-icon {
+        height: 42px;
+        width: 42px;
+    }
+    .testimonial-block .carousel-control-prev {
+        left: 5%;
+    }
+    .testimonial-block .carousel-control-next {
+        right: 5%;
+    }
+    .map-block h2 {
+        text-align: left;
+    }
+    .contact-block h2 {
+        margin-bottom: 61px;
+    }
+    .contact-block .contact-form {
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: 992px) {
+    .more-info h2 {
+        font-size: 67px;
+    }
+    .contact-block h2 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:320px) {
+    .fa-bug,
+    .fa-comments,
+    .fa-check-square {
+        margin-top: 4rem;
+    }
+    .pad p {
+        font-size: 100%;
+    }
+    .logo {
+        width: 275px;
+    }
+    .fa-bug,
+    .fa-comments,
+    .fa-check-square {
+        font-size: 5em;
+        position: relative;
+    }
+}
